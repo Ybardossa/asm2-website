@@ -1,0 +1,82 @@
+body {
+  background: #000; 
+}
+
+header {
+  background-color: #000; 
+  color: #fff; 
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #fff; 
+}
+
+header img {
+  float: left;
+  width: 15%;
+  height: auto;
+}
+
+nav {
+  background-color: #000; 
+  color: #fff; 
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ADD8E6; /* Light blue background on hover */
+  color: #000; /* Change text color on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+
+.form {
+  text-align: center;
+  margin-top: 40px;
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+#form1 input[type=text],
+#form1 input[type=submit] {
+  color: #000;
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #000; 
+  border: 2px solid #fff; 
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+#form1 input[type=submit] {
+  background-color: #f00; 
+  border: 2px solid #f00; 
+
+#form1 input[type="submit"]:hover {
+  background: #c00;
+}
+}
